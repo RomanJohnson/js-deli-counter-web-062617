@@ -6,7 +6,7 @@ katzDeliLine.push(newPerson);
 return (`Welcome, ${newPerson}. You are number ${katzDeliLine.length} in line.`)
 }
 
-function nowServing(line){
+ function nowServing(line){
 
   if (line.length===0) {
     return "There is nobody waiting to be served!"
